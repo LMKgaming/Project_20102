@@ -79,7 +79,7 @@ const initSnowBackground = (count, includeSnowIcon = false) => {
     }
 };
 initSnowBackground(110);
-initSnowBackground(60, true)
+initSnowBackground(40, true)
 
 const envelope = document.querySelector(".envelope-btn");
 const envelopeText = document.querySelector(".envelope-text");
