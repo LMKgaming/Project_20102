@@ -78,8 +78,8 @@ const initSnowBackground = (count, includeSnowIcon = false) => {
         root.appendChild(span);
     }
 };
-initSnowBackground(200);
-initSnowBackground(200, true)
+initSnowBackground(125);
+initSnowBackground(65, true)
 
 const envelope = document.querySelector(".envelope-btn");
 const envelopeText = document.querySelector(".envelope-text");
