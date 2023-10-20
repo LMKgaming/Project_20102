@@ -24,7 +24,7 @@ const colorData = [
     "#a418c7",
     "#c718a7",
 ];
-const blurData = ["5px", "10px", "8px"];
+const blurData = ["4px", "5px", "6px", "7px", "8px"];
 
 const motherText = [
     "Ngày 20/10, con không biết nói gì ngoài gửi đến mẹ lời chúc mạnh khỏe, trẻ mãi không già, luôn là người phụ nữ xinh đẹp nhất trong lòng con. Mãi yêu mẹ❤️❤️❤️",
