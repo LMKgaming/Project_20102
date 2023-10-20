@@ -23,6 +23,22 @@ html {
     scroll-behavior: smooth;
 }
 
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 0px;
+    height: 4px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #ccc;
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: transparent;
+}
+
 body {
     font-family: TitleVN, sans-serif;
     font-size: 1.6rem;
@@ -193,6 +209,8 @@ a {
     font-family: TextVN;
     max-width: max-content;
     margin: 20px 10px;
+    max-height: calc(100% - 20px * 2);
+    overflow: overlay;
     text-align: center;
     font-size: 3.8rem;
     text-shadow: 
