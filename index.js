@@ -45,8 +45,8 @@ const girlFriendText = [
 const root = document.querySelector("#root");
 const initRoseBackground = (count) => {
     for (let i = 0; i < count; i++) {
-        let chooseColor = Math.floor(Math.random() * (colorData.length - 1));
-        let chooseBlur = Math.floor(Math.random() * (blurData.length - 1));
+        let chooseColor = Math.floor(Math.random() * (colorData.length));
+        let chooseBlur = Math.floor(Math.random() * (blurData.length));
         let randomLeft = Math.floor(Math.random() * width - 15);
         let randomTop = Math.floor(Math.random() * height - 15);
         if (randomTop + (50 / 100) * height > height) {
@@ -76,7 +76,7 @@ const noteScreen = document.querySelector(".note-screen");
 const noteLine = document.querySelector('.note-line')
 
 ;((chooseText = friendText) => {
-    let randomText = Math.floor(Math.random() * (chooseText.length - 1))
+    let randomText = Math.floor(Math.random() * (chooseText.length))
     noteLine.innerText = chooseText[randomText]
 })(friendText);
 
