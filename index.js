@@ -24,7 +24,7 @@ const colorData = [
     "#a418c7",
     "#c718a7",
 ];
-const blurData = ["5px", "10px", "2px"];
+const blurData = ["5px", "10px", "8px"];
 
 const motherText = [
     "Ngày 20/10, con không biết nói gì ngoài gửi đến mẹ lời chúc mạnh khỏe, trẻ mãi không già, luôn là người phụ nữ xinh đẹp nhất trong lòng con. Mãi yêu mẹ❤️❤️❤️",
@@ -53,7 +53,7 @@ const initRoseBackground = (count) => {
             let overVh = Math.ceil(((randomTop + (50 / 100) * height - height) / height) * 100);
             randomTop = randomTop - (height / 100) * Math.floor(Math.random() * overVh + overVh);
         }
-        let widthElement = Math.floor(Math.random() * 5) + 15;
+        let widthElement = Math.floor(Math.random() * 5) + 8;
         let timeAnimation = Math.floor(Math.random() * 8) + 5;
         const span = document.createElement("span");
         span.style.background = colorData[chooseColor];
