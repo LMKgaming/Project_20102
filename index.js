@@ -32,7 +32,7 @@ const motherText = [
 ];
 
 const friendText = [
-    "Xin chúc toàn thể chị em phụ nữ Dù thất bại hay thành công,Dù lông bông hay đang làm việc, Dù thất nghiệp hay đang tìm việc, Đang ăn tiệc hay ở nhà, Dù già hay trẻ, Dù đang sắp đẻ hay chưa có chồng, Dù là rồng hay là tôm, Đang bia ôm hay trà đá, Hút thuốc... lá hay là không, Dù có công hay có tội, Dù bơi lội hay karate, Dù đi xe hay đi bộ... 20/10 vui vẻ hạnh phúc!❤️❤️❤️",
+    "Cậu là điều thật đặc biệt mà thế giới này đã tạo nên. Vì vậy, hãy luôn rực rỡ như những bông hoa hướng dương, tích cực và rạng ngời cậu nhé. Chúc các bạn nữ mãi xinh đẹp, rạng ngời và gặp nhiều may mắn trong cuộc sống. 20/10 vui vẻ và hạnh phúc nhé❤️❤️❤️",
     "Chúc các chị em: Vui như chim sẻ. Khỏe như đại bàng. Giàu sang như chim phượng. Làm lụng như chim sâu. Sống lâu như chim đà điểu. Chúc bạn có làn da mịn màng, chúc cho môi thắm dịu dàng, chúc cho chân trắng lại càng thêm xa ❤️❤️❤️",
     "Nhân ngày 20/10. Chúc các bạn nữ hay cười như hít phải N2O, bay bổng như H2, thăng hoa như I2, bản lĩnh như N2 và hiền hậu như H2O. Mình yêu các bạn nhiều lắm ❤️❤️❤️",
 ];
